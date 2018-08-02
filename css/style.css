@@ -1,0 +1,207 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+body
+{
+	background-color: #0380E0;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+
+/*navbar*/
+.navbar
+{
+	background-color: #10D0F7;
+
+}
+
+.lien
+{
+	font-size: 2em;
+}
+
+
+.light:hover{
+border-radius:100%;
+animation:pulsation_bouton .4s ease-out;
+
+
+}
+
+@keyframes pulsation_bouton {
+
+from{
+box-shadow:0 0 0 0px hsla(222,94%,52%,70%),0 0 0 0 hsl(222,94%,52%);
+
+}
+to{
+
+box-shadow:0 0 0 0px hsla(222,94%,52%,90%),0 0 0 20px hsla(222,94%,52%,0);}
+
+}
+
+
+
+.buzz:hover, .buzz:focus, .buzz:active {
+ -webkit-animation-name: buzz;
+  animation-name: buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes buzz {
+   50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+
+.pulse:hover, .pulse:focus, .pulse:active {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+/*navbar fin*/
+
+
+
+.bloc01
+{
+	margin-top: 6%;
+	
+}
+
+
+/*col gauche*/
+
+
+
+h1
+{
+	font-size: 6em;
+	font-weight: 700;
+
+}
+
+
+h2
+{
+	font-size: 3em;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 15%;
+}
+.img01
+{
+	margin-top: 13%;
+}
+
+
+.liste01
+{
+	margin-top: 10%;
+}
+
+
+.liste01 li
+{
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.texte
+{
+	font-size: 2em;
+}
+
+.textegras
+{
+	font-size: 3em;
+	margin: 10% 0;
+	color: white;
+}
+
+.bg_1
+{
+	background-color: #10D0F7;
+
+}
+
+/*col gauche fin*/
+
+
+/*formulaire*/
+
+form
+{
+	position: sticky;
+	top: 15%;
+
+
+}
+
+.bordure
+{
+	border: 2px solid black;
+	background-color: #04FB9D;
+}
+
+.btn-lg
+{
+	width: 90%;
+}
+
+
+/*formulaire fin*/
+
+textarea
+{
+	height: 100px;
+}
+
+#map-container
+{
+	height: 400px;
+}
+
+#contact>.row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
